@@ -1,4 +1,4 @@
-#!./eval
+;;; This is a simple x86 asm compiler
 
 (define __MACH__  '( )) ; non-nil for Darwin / Mac OS X   (deal with the convoluted ABI)
 (define __UNIX__  '( )) ; nin-nil for Unix, MinGW, etc.   (external symbols have underscore prefix)
